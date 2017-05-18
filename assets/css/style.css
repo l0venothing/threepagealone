@@ -1,0 +1,30 @@
+html,body {
+  height: 100%;  
+  margin:0;
+}
+
+.container-width {
+    height: 100%;
+}
+.bg-header
+{
+    background-image: url('../img/code1.jpg');
+    min-height: 100%;
+    background-size: cover;
+    background-position-y: center;
+    filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+        -moz-filter: grayscale(1);
+        -o-filter: grayscale(1);
+        -ms-filter: grayscale(1);
+} 
+
+#text-imgheader {
+    background: none repeat scroll 0 0 #FFffff;
+    opacity: 0.5;
+    margin: 0 auto;
+    margin-top: -250px;
+  
+    position: relative;
+    width:40%;
+}
