@@ -10,8 +10,10 @@
     <link rel="stylesheet" href="<?= base_url('node_modules/bootstrap/dist/css/bootstrap.min.css');?>">
     <link rel="stylesheet" href="<?= base_url('node_modules/font-awesome/css/font-awesome.min.css');?>">
     <link rel="stylesheet" href="<?= base_url('assets/css/style.css'); ?>">
+     <link rel="stylesheet" href="<?= base_url('assets/css/skills.css'); ?>">
     <script  src="<?php echo base_url('node_modules/jquery/dist/jquery.min.js');?>" ></script>
 <script src="<?php echo base_url('node_modules/bootstrap/dist/js/bootstrap.min.js');?>" ></script>
+<script src="<?php echo base_url('assets/js/main.js');?>"></script>
 </head>
 <body>
      <?php  $this->load->view('template/base/nav');  ?>
