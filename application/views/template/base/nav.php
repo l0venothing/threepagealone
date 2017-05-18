@@ -15,7 +15,7 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li><a href="<?= base_url('Welcome');?>">Home</a></li>
-                        <li><a href="">Portfolio</a></li>
+                        <li><a href="<?= base_url('Portfolio');?>">Portfolio</a></li>
                         <li><a href="">Skills</a></li>
                         <li><a href="">Funnyland</a></li>
                         <li><a href="">Wave Me</a></li>
