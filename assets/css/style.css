@@ -49,3 +49,55 @@ figure img:hover {
   border-radius: 20%;
 }
 
+ .middle {
+    margin-left: 85px;
+}
+
+#logocode {
+    width: 100%;
+    height: 100%;
+    margin-top: -350px;
+}
+
+#hi1 {
+position : relative;
+top:-250px;
+left:80px;
+}
+#hi2 {
+position : relative;
+top:-250px;
+}
+#hi3 {
+position : relative;
+top:-320px;
+left:80px;
+}      
+#hi4 {
+position : relative;
+top:-320px;
+} 
+#hi5 {
+position : relative;
+top:-420px;
+left:80px;
+} 
+#hi6 {
+position : relative;
+top:-430px;
+left:-20px;
+} 
+#hi7 {
+position : relative;
+top:-550px;
+left:70px;
+} 
+#hi8 {
+position : relative;
+top:-550px;
+} 
+#hi9 {
+position : relative;
+top:-520px;
+left:-80px;
+} 

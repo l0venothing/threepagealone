@@ -6,7 +6,7 @@ class Skills extends MY_Controller {
     {
 		 parent::__construct();
       
-	}
+	} 
 	public function index()
 	{   
 		$this->render('Skills_vw');
