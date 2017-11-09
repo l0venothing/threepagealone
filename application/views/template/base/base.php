@@ -17,7 +17,7 @@
 </head>
 <body>
      <?php  $this->load->view('template/base/nav');  ?>
-    <div class="container">
+    <div class="container-fluid">
         <?= $view_content ?>
     </div>
     <?php  $this->load->view('template/footer/footer');  ?>

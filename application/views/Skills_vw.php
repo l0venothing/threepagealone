@@ -17,10 +17,10 @@
 </div>
 <div class="row">
 	<div class="col-xs-3">
-		<div class="skillbar clearfix " data-percent="30%">
+		<div class="skillbar clearfix " data-percent="60%">
 			<div class="skillbar-title" style="background: #46465e;"><span>PHP</span></div>
 			<div class="skillbar-bar" style="background: #5a68a5;"></div>
-			<div class="skill-bar-percent">30%</div>
+			<div class="skill-bar-percent">60%</div>
 		</div>
 	</div>
 	<div class="col-xs-3">
@@ -50,10 +50,10 @@
 
 <div class="row">
 	<div class="col-xs-3">
-		<div class="skillbar clearfix " data-percent="55%">
+		<div class="skillbar clearfix " data-percent="70%">
 			<div class="skillbar-title" style="background: #7F0000;"><span>JavaScript</span></div>
 			<div class="skillbar-bar" style="background: #E50000;"></div>
-			<div class="skill-bar-percent">55%</div>
+			<div class="skill-bar-percent">70%</div>
 		</div>
 	</div>
 	<div class="col-xs-3">

@@ -22,31 +22,30 @@
         <?php 
 } ?>
 </div>
-<div class="row">
+<div class="row webproject">
     <h2 class="text-center"> Website </h2>
     <?php 
     foreach($querySite->result() as $row){
 ?>
-    <div class="project webproject">
+    <div class="project ">
         <div>
             <div class="row">
-
                 <h3 class="text-center">
                     <?php echo $row->nom; ?>
-                </h3>
-                <figure class="fig-1">
-                    <div class="col-xs-3 web">
+                </h3> 
+                <div class="row webproject" >      
+                <figure class="fig-1 figweb1">
+                    <div class="col-xs-4 col-xs-push-1 web">
                         <img class="img-responsive img-projets" src="<?= base_url( $row->imagepath); ?>">
                     </div>
-                    <div class="col-xs-3"></div>
-                    <div class="col-xs-3"></div>
+                    
                 </figure>
-                <figure class="fig-1">
-                    <div class="col-xs-3 web">
+                <figure class="fig-1 figweb2">
+                    <div class="col-xs-4 col-xs-push-8  web">
                         <img class="img-responsive img-projets" src="<?= base_url( $row->imagepath2); ?>">
                     </div>
                 </figure>
-
+                </div>
             </div>
         </div>
     </div>
@@ -54,4 +53,3 @@
 } ?>
 </div>
 
-</div>

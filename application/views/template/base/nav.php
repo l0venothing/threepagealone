@@ -3,7 +3,11 @@
      <div class="text-center banner-container container">
      
         <h1 id="title-imgheader" class="text-center">Web & Game Developer </h1>
-        <h3 id="text-imgheader" class="text-center">Learn More</h3>
+        
+        <h3 id="text-imgheader" class="text-center">
+        <a href="<?=base_url('Portfolio');?>">Learn More</a>
+        </h3>
+        
         
     </div>
         <nav class="navbar navbar-default">  

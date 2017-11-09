@@ -2,9 +2,7 @@ html,body {
   height: 100%;  
   margin:0;
 }
-.container {
-  height: 100%;
-}
+
 /* nav  */
 
 .navbar-default {
@@ -18,7 +16,9 @@ html,body {
 .navbar-default .navbar-nav>li>a {
  color:white;
 }
-
+.navbar-default .navbar-nav>li>a:hover {
+  color:green;
+ }
 
 article,
 aside,
@@ -96,6 +96,16 @@ footer {
   margin-top: 35px;
 }
 /*PORTFOLIO*/
+.webproject {
+  width:100%;
+  
+}
+.figweb1 {
+  width:700px;
+}
+.figweb2 {
+   width:700px;
+}
 /*IMAGE EFFECTS*/
 figure img {
    

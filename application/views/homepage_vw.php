@@ -28,7 +28,7 @@
     <div class="col-xs-6">
     <h2>My Best Skills</h2>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium soluta tenetur nisi quidem, ratione maxime, nam quis aliquam quos nobis itaque repellendus quas. Quia minima enim omnis ipsam inventore porro!</p>
-    <p class="text-center"id="contact"><span>Contact Me</span></p>
+    <p class="text-center"id="contact"><span><a href="<?=base_url('');?>">Contact Me</a></span></p>
     </div>
     <div class="col-xs-3 gauge">
 		<div class="skillbar clearfix " data-percent="70%">
