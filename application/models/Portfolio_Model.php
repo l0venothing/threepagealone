@@ -2,7 +2,8 @@
  defined('BASEPATH') OR exit('No direct script access allowed');
 Class Portfolio_Model extends CI_Model
 {
-	private $table = "projects";
+    private $table = "projects";
+    private $tableWebsite ="siteweb";
 
 	public function __construct(){
 		 parent::__construct();
@@ -14,4 +15,10 @@ Class Portfolio_Model extends CI_Model
         $query = $this->db->get_where($this->table, $where); 
         return $query; 
     }
+
+    function get_site($where=array()){
+        $this->db->where('deleted',0); //ramene juste les deleted = 0 
+       $querySite = $this->db->get_where($this->tableWebsite, $where); 
+       return $querySite; 
+   }
 }

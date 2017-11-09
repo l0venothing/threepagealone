@@ -4,10 +4,10 @@ jQuery(document).ready(function () {
 			width: jQuery(this).attr('data-percent')
 		}, 6000);
 	});
-	// var logo = $('#logocode');
-	// logo.click(function () {
-	// 	$('.hidden').removeClass("hidden");
-	// 	$('.hidden-img').addClass("visible");
+	 var logo = $('#logocode');
+	 logo.click(function () {
+	 	$('.hidden').removeClass("hidden");
+	 	$('.hidden-img').addClass("visible");
 	// 	$('.visible').each(function (logo) {
 	// 		$(this).animate({
 	// 			"top": "-=250px"
@@ -17,6 +17,6 @@ jQuery(document).ready(function () {
 	// 			});
 	// 		});
 	// 	});
-	// });
+	 });
 });
 
