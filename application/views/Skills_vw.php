@@ -133,10 +133,10 @@
 		</div>
 	</div>
 	<div class="col-xs-3">
-		<div class="skillbar clearfix " data-percent="0%">
+		<div class="skillbar clearfix " data-percent="40%">
 			<div class="skillbar-title" style="background: #EFE266;"><span>Laravel</span></div>
 			<div class="skillbar-bar" style="background: #E5D000;"></div>
-			<div class="skill-bar-percent">0%</div>
+			<div class="skill-bar-percent">40%</div>
 		</div>
 	</div>
 </div>

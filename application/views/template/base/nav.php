@@ -30,8 +30,8 @@
                         <li><a href="<?= base_url('Welcome');?>">Home</a></li>
                         <li><a href="<?= base_url('Portfolio');?>">Portfolio</a></li>
                         <li><a href="<?= base_url('Skills');?>">Skills</a></li>
-                        <li><a href="">Funnyland</a></li>
-                        <li><a href="">Wave Me</a></li>
+                        <!-- <li><a href="<?= base_url('Funnyland');?>">Funnyland</a></li> -->
+                        <li><a href="<?= base_url('Contact');?>">Wave Me</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="http://www.if3projets.net/gamedev1/Esther_Roux_cv.pdf">CV</a></li>

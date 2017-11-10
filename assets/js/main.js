@@ -8,15 +8,15 @@ jQuery(document).ready(function () {
 	 logo.click(function () {
 	 	$('.hidden').removeClass("hidden");
 	 	$('.hidden-img').addClass("visible");
-	// 	$('.visible').each(function (logo) {
-	// 		$(this).animate({
-	// 			"top": "-=250px"
-	// 		}, "slow", function () {
-	// 			$('.visible').animate({
-	// 				"top": "+20px", "left": "-55px"
-	// 			});
-	// 		});
-	// 	});
+		$('.visible').each(function (logo) {
+			$(this).animate({
+				"top": "-=250px"
+			}, "slow", function () {
+				$('.visible').animate({
+					"top": "+20px", "left": "-55px"
+				});
+			});
+		});
 	 });
 });
 
