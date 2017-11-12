@@ -20,3 +20,17 @@ jQuery(document).ready(function () {
 	 });
 });
 
+var link= document.getElementById('headerlink');console.log(link);
+// link[0].href=location.href;
+function PageDown (){
+	console.log("pagedooooown");
+	
+	var textImgHeader = $('#text-imgheader');
+
+	
+	// link[0].href=location.href;
+	
+
+
+}
+

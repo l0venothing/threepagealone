@@ -4,11 +4,11 @@
      
         <h1 id="title-imgheader" class="text-center">Web & Game Developer </h1>
         
-        <h3 id="text-imgheader" class="text-center">
-        <a href="<?=base_url('Portfolio');?>">Learn More</a>
-        </h3>
-        
-        
+            <nav id="text-imgheader" onclick="PageDown()" class="text-center">
+                <ul class="nav navbar-nav">
+                    <li> <a id='headerlink' href="">Learn More</a> </li>   
+                </ul>
+            </nav>      
     </div>
         <nav class="navbar navbar-default">  
          

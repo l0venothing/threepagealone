@@ -63,8 +63,8 @@ summary {
 }
 
 #text-imgheader {
-  border: solid 2px rgb(201, 205, 228);
-  width: 550px;
+  /* border: solid 2px rgb(201, 205, 228);
+  width: 550px; */
   margin: 0 auto;
   margin-top: 10px;
   font-size: 60px;
