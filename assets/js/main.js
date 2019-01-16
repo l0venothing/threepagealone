@@ -19,8 +19,9 @@ jQuery(document).ready(function () {
 		});
 	 });
 });
-
-var link= document.getElementById('headerlink');console.log(link);
+var textImgHeader = jQuery('#text-imgheader');
+var link= $('#headerlink');
+console.log(textImgHeader);
 // link[0].href=location.href;
 function PageDown (){
 	console.log("pagedooooown");

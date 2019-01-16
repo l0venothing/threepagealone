@@ -16,6 +16,7 @@
                         <textarea name="message" value="Votre message" rows="10" type="text" class="form-control" placeholder="Votre message"></textarea>
                     </div>
                     <div class="col-md-6">
+                    
                         <div class="g-recaptcha Captcha" data-sitekey="6Lc-ciIUAAAAABvG3Am8WEGWiB6RtcadyBXiYOPv"></div>
                     </div>
                     <div class="col-md-5 col-ms-offset-1 pull-right envoyer">
