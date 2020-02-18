@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-
+define("FHPATH",APPPATH."modules/");
 /*
 |--------------------------------------------------------------------------
 | Base Site URL
@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://threepage.mydev/';
+$config['base_url'] = 'http://threepage.mydev:8080/';
 
 /*
 |--------------------------------------------------------------------------
@@ -78,7 +78,25 @@ $config['url_suffix'] = '';
 | than english.
 |
 */
-$config['language']	= 'english';
+// $config['language']	= 'english';
+$config['language']	= 'en';
+/* default language abbreviation */
+$config ['language_abbr'] = "en";
+
+/*
+/* set available language abbreviations */
+$config ['lang_uri_abbr'] = array (
+		"en" => "en",
+		"fr" => "fr"
+);
+
+/* hide the language segment (use cookie) */
+$config ['lang_ignore'] = TRUE;
+
+$config ['langArray'] = array (
+		"en",
+		"fr"
+);
 
 /*
 |--------------------------------------------------------------------------

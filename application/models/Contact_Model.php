@@ -13,8 +13,24 @@ class Contact_Model extends CI_Model {
        $data = array(
             'nom'      => $nom,
             'email'    => $email,
-            'message' => $message
+            'message' => $message,
+           
         );
         $this->db->insert($this->table, $data);
+$res=$this->contact_read();
+   
+     
+      return $res[0]->id;
    }
+
+
+   public function contact_read(){
+    $this->db->select('MAX(id) as id');
+    $this->db->from($this->table);
+    return $this->db->get()
+    ->result();
+
+
+     
+}
 }

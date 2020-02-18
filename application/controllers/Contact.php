@@ -1,6 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-
+require 'vendor/autoload.php';
+use \Mailjet\Resources;
 class Contact extends MY_Controller {
     public function __construct()
     {
@@ -32,32 +33,30 @@ class Contact extends MY_Controller {
 			$nom = $this->input->post('nom');
 			$email = $this->input->post('email');
 			$message = $this->input->post('message');
-			$this->Contact_Model->contact_send($nom,$email,$message);
-			$config['useragent']    = 'CodeIgniter';
-			$config['protocol']     = 'smtp';
-			$config['smtp_host']    = 'smtp.mailtrap.io';
-			$config['smtp_user']    = '3b0bc61feb61ed'; // Your gmail id
-			$config['smtp_pass']    = '90eb6f939f66c6'; // Your gmail Password
-			$config['smtp_port']    = 2525;
-			$config['wordwrap']     = TRUE;    
-			$config['wrapchars']    = 76;
-			$config['mailtype']     = 'html';
-			$config['charset']      = 'UTF-8';
-			$config['validate']     = FALSE;
-			$config['priority']     = 3;
-			$config['newline']      = "\r\n";
-			$config['crlf']         = "\r\n";
-
-			$this->load->library('email');
-			$this->email->initialize($config);
-
-			$this->email->from('3b0bc61feb61ed', 'TSS DEV');
-			$this->email->to('bluebirdinette@gmail.com'); 
-
-			$this->email->subject('Message provenant de ton site web CV');
-			$this->email->message($nom, $email, $message);    
-
-			$this->email->send();
+			$id=$this->Contact_Model->contact_send($nom,$email,$message);
+			$mj = new \Mailjet\Client('77296be1b256d268ec2dfdfa0b970e70','af1d452570505c5ae7b39b4705d26e3a',true,['version' => 'v3.1']);
+			$body = [
+			  'Messages' => [
+				[
+				  'From' => [
+					'Email' => "l0ve-nothing@hotmail.com",
+					'Name' => $nom
+				  ],
+				  'To' => [
+					[
+					  'Email' => "l0ve-nothing@hotmail.com",
+					  'Name' => "Esther"
+					]
+				  ],
+				  'Subject' => "Message provenant du formulaire de contact : ".$email,
+				  'TextPart' => "contact formulaire",
+				  'HTMLPart' => $message,
+				  'CustomID' => "formulaire".$id
+				]
+			  ]
+			];
+			$response = $mj->post(Resources::$Email, ['body' => $body]);
+			$response->success() ;
 			$this->render('contactsuccess_vw');
 			}
 	}

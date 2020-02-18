@@ -140,21 +140,24 @@
 		</div>
 	</div>
 </div>
-<!--<div class="row">
+<!-- <div class="row">
 	<div class="col-xs-2 col-xs-push-7">
-	<img class="hidden hidden-img"src="http://threepagealone.dev/assets/img/bootstrap.jpg" alt=""></div>
-</div>-->
+	<img class="hidden  hidden-img"src="http://threepagealone.dev/assets/img/bootstrap.jpg" alt=""></div>
+</div> -->
 <div class="row">
 	<div class="col-xs-2 col-xs-push-7">
-		<img class="overimg" id="logocode" src="http://threepagealone.dev/assets/img/prog.png" alt="">
-		<img id="hi1" class="hidden hidden-img" src="http://threepagealone.dev/assets/img/bootstrap.jpg" alt="">
-		<img id="hi2" class="hidden hidden-img" src="http://threepagealone.dev/assets/img/cs.jpg" alt="">
-		<img id="hi3" class="hidden hidden-img"src="http://threepagealone.dev/assets/img/html.jpg" alt="">
-		 <img id="hi4" class="hidden hidden-img" src="http://threepagealone.dev/assets/img/sql.jpg" alt="">
-		 <img id="hi5" class="hidden hidden-img" src="http://threepagealone.dev/assets/img/css3_logo.jpg" alt="">
-		 <img id="hi6" class="hidden hidden-img" src="http://threepagealone.dev/assets/img/logo-javascript.png" alt="">
-		 <img id="hi7" class=" hidden hidden-img"src="http://threepagealone.dev/assets/img/python.png" alt="">
-		 <img id="hi8" class=" hidden hidden-img" src="http://threepagealone.dev/assets/img/java.jpg"alt="">
-		 <img id="hi9" class="hidden hidden-img" src="http://threepagealone.dev/assets/img/php-icon.png" alt="">
+
+
+
+		<img class="overimg" id="logocode" 	src="<?= base_url('assets/img/prog.png'); ?>" alt="">
+		<img id="hi1" class="hidden hidden-img" 	src="<?= base_url('assets/img/bootstrap.jpg'); ?>" alt="">
+		<img id="hi2" class="hidden hidden-img"  src="<?= base_url('assets/img/cs.jpg'); ?>"  alt="">
+		<img id="hi3" class="hidden hidden-img" src="<?= base_url('assets/img/html.jpg'); ?>" alt="">
+		 <img id="hi4" class="hidden hidden-img"   src="<?= base_url('assets/img/sql.jpg'); ?>" alt="">
+		 <img id="hi5" class="hidden hidden-img"   src="<?= base_url('assets/img/css3_logo.jpg'); ?>" alt="">
+		 <img id="hi6" class="hidden hidden-img"   src="<?= base_url('assets/img/logo-javascript.png'); ?>"  alt="">
+		 <img id="hi7" class=" hidden hidden-img"  src="<?= base_url('assets/img/python.png'); ?>"  alt="">
+		 <img id="hi8" class=" hidden hidden-img"  src="<?= base_url('assets/img/java.jpg'); ?>"  alt="">
+		 <img id="hi9" class="hidden hidden-img"  src="<?= base_url('assets/img/php-icon.png'); ?>"   alt="">
 	</div>
 </div>

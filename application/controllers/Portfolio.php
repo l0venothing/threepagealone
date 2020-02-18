@@ -9,9 +9,10 @@ class Portfolio extends MY_Controller {
 	}
 	public function index()
 	{
-		   $this->data["query"] = $this->Portfolio_Model->get_where();
+		   $this->data["query"] = $this->Portfolio_Model->get_where('projects');
 		   $this->data["querySite"] = $this->Portfolio_Model->get_site();
        
 		$this->render('portfolio_vw');
 	}
 }
+

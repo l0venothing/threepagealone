@@ -1,1 +1,1 @@
-<h3> Votre message a bien été envoyé, nous vous répondrons dans les plus brefs délais</h3>
+<h3 class='m-3'> Votre message a bien été envoyé, nous vous répondrons dans les plus brefs délais</h3>
